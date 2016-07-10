@@ -1,0 +1,15 @@
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'com.github.wyozi.luna',
+                name: 'luna-gradle-plugin',
+                version: '1.0-SNAPSHOT'
+    }
+}
+
+apply plugin: 'luna'

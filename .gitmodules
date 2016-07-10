@@ -1,0 +1,3 @@
+[submodule "plugin/src/main/resources/luna"]
+	path = plugin/src/main/resources/luna
+	url = https://github.com/wyozi/luna.git
